@@ -29,8 +29,10 @@ Nome do Arquivo Final: apenastestando$%%$%%$%$%$$%¨&;;.mkv
 
 
 Observação: Caso queira usar outro navegador, mude esta linha 
+
 edge = pyautogui.getWindowsWithTitle('Nome do Outro Navegador')[0]
 
 Observação: A pasta deve ser a mesma em que as gravações são do OBS são salvas. 
 A pasta que uso é a Vídeos padrão do windows, caso queira mudar mude esta linha também 
+
 recording_dir = os.path.join(os.path.expanduser("~"), "Videos")
